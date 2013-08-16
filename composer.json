@@ -1,6 +1,7 @@
 {
     "name": "dyon/flatstrapper",
     "description": "Flatstrap markup generator based on patricktalmadge/bootstrapper.",
+    "license": "MIT",
     "keywords": [
         "flatstrap",
         "bootstrap",
