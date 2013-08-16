@@ -1,0 +1,4 @@
+flatstrapper
+============
+
+Laravel Flatstrap package.
