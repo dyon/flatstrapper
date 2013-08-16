@@ -1,0 +1,35 @@
+{
+    "name": "dyon/flatstrapper",
+    "description": "Flatstrap markup generator based on patricktalmadge/bootstrapper.",
+    "keywords": [
+        "flatstrap",
+        "bootstrap",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Daniel Hurtado",
+            "email": "hello@dyon.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "anahkiasen/html-object": "dev-master",
+        "anahkiasen/underscore-php": "dev-master",
+        "illuminate/html": "~4",
+        "illuminate/support": "~4",
+        "jasonlewis/basset": "dev-master"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Dyon\\Flatstrapper": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
